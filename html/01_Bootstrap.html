@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title></title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+	
+		<script src="../js/bootstrap.js"></script>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	</head>
+
+	
+	<body>
+		<div class="container">
+		<div class = "navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="">***</a>
+					<ul class="nav">
+						<li><a href="Link1">rss</a></li>
+						<li><a href="Link2">chrome extention</a></li>
+					</ul>
+
+					<ul class="nav pull-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Code</strong><b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a data-toggle="modal" href="#email">Send message to e-mail</a></li>
+						<li><a data-toggle="modal" href="#new_uid">Add to another code</a></li>
+					</ul>
+					</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+
+		<div class = "container">
+			<form class="will firm-inline" method="post">
+				<input type="text" class="cpan10" placeholder="Link at News" name="new_link">
+				<button type="submit" class="btn">Add</button>
+			</form>
+			<table class = "table">
+				<tbody>
+				<tr>
+					<td>Date</td>
+					<td>Time</td>
+					<td><a href="Link">Title</a></td>
+					<td><a href="Link" class="muted">Muted</a></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<form method="post">
+			<div class="modal hide fade" id="email">
+				<div class="modal-header">
+					<a class="close" data-dismiss="modal">x</a>
+					<h3>Send Unique Code to e-mail</h3>
+				</div>
+
+				<div class="modal-body">
+					<input type="text" class="span5" placeholder="e-mail" name="email">
+					<p class="help-block">Synhronise to many computers others news</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-primary">Send</button>
+				</div>
+
+			</div>
+		</form>
+
+		<form method="post">
+			<div class="modal hide fade" id="new_uid"
+				<div class="modal-header">
+					<a class="close" data-dismiss="modal">x</a>
+					<h3>Add Unique reader code</h3>
+				</div>
+				
+				<div class="modal-body">
+					<input tupe="text" class="span5" placeholder="Unique Code" name="new_uid"</input>
+					<p class="help-block">Synhronise to many computers others news</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type = "submit" class="btn btn-primapy">Send</button>
+				</div>
+			</div>
+		</form>
+		</div>
+	</body>
+</html>
